@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*Heading styling*/
+
+.headings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    height : 65px;
+}
+
+.headingLeft img{
+    object-fit: contain;
+    height: 45px;
+    padding-right: 15px;
+}
+
+.headingLeft span{
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 25px ;
+    padding-right: 15px;
+    color: gray;
+}
+
+.headingLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headingLeft p{
+    padding-top: 14px;
+}
+
+.gmailStyle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: gray;
+    font-weight: 500;
+}
+
+.headingMid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.headingMid span{
+    padding-right: 10px;
+    padding-left: 25px;
+    color: gray;
+    cursor: pointer;
+}
+
+.searchStyle{
+    border : 1px solid whitesmoke;
+    background-color: whitesmoke;
+    width: 550px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.headingRight{
+    padding-right: 10px;
+}
+
+.stt{
+    padding-right: 15px;
+    color: gray;
+    cursor: pointer;
+}
+/*Heading styling ends*/
+.sideBar{
+    flex: 0.3;
+    max-width: 250px;
+    padding-right: 20px;
+}
+
+.compose{
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    height: 50px;
+    width: 160px;
+    border : 1px solid whitesmoke;
+    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.sideBarOpt{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 25px ;
+    padding-right: 15px;
+    color: gray;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sideBarOpt span{
+    padding-right: 20px;
+}
+
+.sideBarOpt p{
+   padding-top: 14px;
+}
+
+
+.sideBarMore{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    color: gray;
+    cursor: pointer;
+}
+.sideBarMore span{
+
+    padding : 10px;
+    /*padding-right: 10px;
+    padding-left: 10px;*/
+}
+
+.sideBarOpt:hover{
+    transform: scale(1.0);
+    border-top-right-radius: 25px ;
+    border-bottom-right-radius: 25px;
+    background-color: #f7c2be;
+    color: crimson;
+}
+
+.active:hover{
+    transform: scale(1.0);
+    background-color: whitesmoke;
+    color: black;
+}
+
+.mBody{
+    display: flex;
+}
+
+body{
+    height: 100vh;
+
+}
+
+.mBodyContent{
+    flex: 0.78;
+}
+.emailListSetttings{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    padding-top: 13px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+}
+
+.emailListSetttings span:hover{
+
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50%;
+    
+}
+
+.psp{
+    color : gray;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-bottom: solid 1px whitesmoke;
+    
+}
+
+.psp span{
+    cursor: pointer;
+}
+
+.primary{
+    display: flex;
+    align-items: center;
+    padding-right: 200px;
+    
+}
+
+.primary p{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.p1:hover{
+    transform: scale(1.0);
+    color: crimson;
+    border-bottom: 3px solid crimson;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: whitesmoke;
+}
+
+.p2:hover{
+    transform: scale(1.0);
+    color : blue;
+    border-bottom: 3px solid blue;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: whitesmoke;
+}
+
+.p3:hover{
+    transform: scale(1.0);
+    color: green;
+    border-bottom: 3px solid green;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: whitesmoke;
+}
+
+.sideBarRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
