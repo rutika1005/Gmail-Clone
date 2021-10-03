@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+        <!--Above div-->
+        <div class="headings">
+
+            <div class="headingLeft">
+                <span class="material-icons">menu</span>
+                <img src="https://i.pinimg.com/236x/d5/96/65/d596650610d93c05587f4bc6ee39bfe5.jpg" alt="">
+                <p class="gmailStyle">Gmail</p>
+            </div>
+        
+            <div class="headingMid">
+                <span class="material-icons">search</span>
+                <input type="text" placeholder="Search mail" class="searchStyle">
+                <span class="material-icons tune-style">tune</span>
+            </div>
+        
+            <div class="headingRight">
+                <span class="material-icons stt">help_outline</span>
+                <span class="material-icons stt">settings</span>
+                <span class="material-icons stt">apps</span>
+                <span class="material-icons stt">account_circle</span>
+            </div>
+        </div>   
+        <!--above div ends-->
+
+        <!--Body starts-->
+            <script src="script.js"></script>
+            <div class="mBody">
+                <!--Side bar-->
+                    <div class="sideBar">
+                        <button class='compose' onclick="composeMail()">
+                            <span class="material-icons">add</span>
+                            Compose
+                        </button>
+
+                        <div class="sideBarOpt">
+                            <span class="material-icons activeOpt">inbox</span>
+                            <p><b>Inbox</b></p>
+                        </div>
+                        <div class="sideBarOpt">
+                            <span class="material-icons activeOpt">star</span>
+                            <p>Starred</p>
+                        </div>
+                        <div class="sideBarOpt">
+                            <span class="material-icons activeOpt">snooze</span>
+                            <p>Snoozed</p>
+                        </div>
+                        <div class="sideBarOpt">
+                            <span class="material-icons activeOpt">send</span>
+                            <p>Sent</p>
+                        </div>
+                        <div class="sideBarOpt">
+                            <span class="material-icons activeOpt">drafts</span>
+                            <p>Drafts</p>
+                        </div>
+
+                        <div class="sideBarMore">
+                            <span class="material-icons active">person</span>
+                            <span class="material-icons active">duo</span>
+                            <span class="material-icons active">call</span>
+                        </div>
+
+                    </div>
+                    <!--side bar ends-->
+                    <div class="mBodyContent">
+                        <div class="emailListSetttings">
+                            <div class="settingsLeft">
+                                <span class="material-icons">check_box_outline_blank</span>
+                                <span class="material-icons">arrow_drop_down</span>
+                                <span class="material-icons">refresh</span>
+                                <span class="material-icons">more_vert</span>
+                            </div>
+                            <div class="settingsRight">
+                                <span class="material-icons">chevron_left</span>
+                                <span class="material-icons">chevron_right</span>
+                            </div>
+                        </div>
+
+                        <div class="psp">
+                            <div class="primary p1">
+                                <span class="material-icons">inbox</span>
+                                <p>Primary</p>
+                            </div>
+
+                            <div class="primary p2">
+                                <span class="material-icons">people</span>
+                                <p>Social</p>
+                            </div>
+
+                            <div class="primary p3">
+                                <span class="material-icons">local_offer</span>
+                                <p>Promotions</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+           
+        <!--body ends-->
+    </div>
+    
+</body>
+</html>
